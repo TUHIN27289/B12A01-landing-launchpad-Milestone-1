@@ -9,6 +9,12 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
     <title>Milestone-1</title>
     <script
@@ -16,7 +22,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="open-sans-normal">
+  <body class="raleway-normal">
     <header class="header">
       <nav class="navbar">
         <div class="nav-container">
@@ -78,13 +84,13 @@
           <h1 class="review-title">What our users say</h1>
           <div class="review-container-items">
             <div class="review-container-item">
-              <span class="rating"
-                ><i class="fa-solid fa-star" style="color: #ffd43b"></i
-                ><i class="fa-solid fa-star" style="color: #ffd43b"></i
-                ><i class="fa-solid fa-star" style="color: #ffd43b"></i
-                ><i class="fa-solid fa-star" style="color: #ffd43b"></i
-                ><i class="fa-solid fa-star" style="color: #ffd43b"></i
-              ></span>
+              <span class="rrrrr">
+                <img src="Assets/icon-star.png" />
+                <img src="Assets/icon-star.png" />
+                <img src="Assets/icon-star.png" />
+                <img src="Assets/icon-star.png" />
+                <img src="Assets/icon-star.png" />
+              </span>
               <h3 class="review-rating">Loved by Designers</h3>
               <p class="review-paragraph">
                 This template instantly leveled up our presence.” – Studio
@@ -178,30 +184,32 @@
               <span class="touch-container-item_p">Touch</span>
             </p>
           </div>
-          <div class="touch-container-item">
+
+          <div class="contact-form inter-normal">
             <form>
-              <label class="f3" for="Email">Email</label><br />
-              <input
-                class="f1"
-                type="email"
-                id="Email"
-                placeholder="example@email.com"
-              /><br />
-              <label class="f3" for="name">Name</label><br />
-              <input
-                class="f1"
-                type="text"
-                id="name"
-                placeholder="full Name"
-              /><br />
-              <label class="f3" for="message">Message</label><br />
-              <textarea
-                class="f2"
-                id="message"
-                placeholder="write your message "
-              ></textarea
-              ><br />
-              <button class="tb">Get in Touch</button>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="example@email.com"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="full name" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  placeholder="write your message...."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-button">Get in Touch</button>
             </form>
           </div>
         </div>
