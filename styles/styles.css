@@ -5,7 +5,7 @@
     font-weight: 700;
     font-size: 16px;
     padding: 12px 36px;
-    border-radius: 10px;
+    cursor: pointer;
 }
 
 .logo-part {
@@ -327,16 +327,14 @@ textarea {
 }
 
 .submit-button {
-    background-color: #4F46E5;
-    color: #fff;
-    padding: 16px;
-    width: 100%;
-    border: none;
-    border-radius: 10px;
+    background-color: #4E47FF;
+    color:  #FFFFFF;
+    font-weight: 700;
     font-size: 16px;
-    font-weight: 600;
+    border-radius: 10px;
+    width: 100%;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    padding: 12px 36px;
 }
 
 .submit-button:hover {
