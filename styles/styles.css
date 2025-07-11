@@ -7,6 +7,9 @@
     padding: 12px 36px;
     cursor: pointer;
 }
+.btn-primary:hover {
+    background-color: #4338ca;
+}
 
 .logo-part {
     color: #4E47FF;
