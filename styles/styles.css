@@ -112,6 +112,7 @@ nav ul li a{
     font-size: 10px;
     color: #00000080;
     margin-top: 0px;
+    text-align: left;
 }
 
 
@@ -175,4 +176,18 @@ border-radius: 50px;
 body{
     background-color: #F2F4FA;
 
+}
+
+.focus{
+     margin: 0px 155px 137px 185px;
+     background-color: #FFFFFF;
+     text-align: center;
+     padding: 71px 150px;
+}
+.focus-img img{
+    border-radius: 14px;
+}
+.button-focus{
+    margin-bottom: 15px;
+    /* padding-bottom: 20px; */
 }
