@@ -48,9 +48,12 @@
 /* nav style */
 .nav-item {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 800px;
+
     padding: 40px 150px;
-    margin: 0px 150px 120px 150px;
+    margin: 0px 150px 120px 150x;
 }
 
 nav ul li {
